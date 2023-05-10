@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9645" branch-rate="0.7631" version="1.9" timestamp="1683457040" lines-covered="136" lines-valid="141" branches-covered="29" branches-valid="38">
+  <sources>
+    <source>C:\Users\issaj\projects\Cursos\Xunit\Project\Lab.240-Ejercicio de prácticas\src\</source>
+  </sources>
+  <packages>
+    <package name="Chat.Client.Library" line-rate="0.9626" branch-rate="0.7631" complexity="50">
+      <classes>
+        <class name="Chat.Client.Library.Services.ChatApiClient" filename="Chat.Client.Library\Services\ChatApiClient.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.Net.Http.HttpClient)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="4" branch="False" />
+                <line number="16" hits="4" branch="False" />
+                <line number="17" hits="4" branch="False" />
+                <line number="18" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="4" branch="False" />
+            <line number="16" hits="4" branch="False" />
+            <line number="17" hits="4" branch="False" />
+            <line number="18" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Services.ChatApiClient/&lt;GetChatMessagesAsync&gt;d__3" filename="Chat.Client.Library\Services\ChatApiClient.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Services.ChatApiClient/&lt;SendMessageAsync&gt;d__2" filename="Chat.Client.Library\Services\ChatApiClient.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Services.ChatClient" filename="Chat.Client.Library\Services\ChatClient.cs" line-rate="1" branch-rate="0.5" complexity="6">
+          <methods>
+            <method name="get_IsConnected" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="Connect" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="78" hits="5" branch="False" />
+                <line number="79" hits="10" branch="False" />
+                <line number="80" hits="5" branch="False" />
+                <line number="81" hits="5" branch="False" />
+                <line number="82" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="Dispose" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="127" hits="12" branch="False" />
+                <line number="128" hits="12" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="129" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;ReciveMessages&gt;b__20_0" signature="(Chat.Common.Entities.ChatMessage)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="107" hits="14" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Chat.Client.Library.Services.IChatApiClient,Chat.Client.Library.Services.IUserApiClient)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="12" branch="False" />
+                <line number="26" hits="12" branch="False" />
+                <line number="27" hits="12" branch="False" />
+                <line number="28" hits="12" branch="False" />
+                <line number="29" hits="12" branch="False" />
+                <line number="30" hits="12" branch="False" />
+                <line number="31" hits="12" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="8" branch="False" />
+            <line number="78" hits="5" branch="False" />
+            <line number="79" hits="10" branch="False" />
+            <line number="80" hits="5" branch="False" />
+            <line number="81" hits="5" branch="False" />
+            <line number="82" hits="5" branch="False" />
+            <line number="127" hits="12" branch="False" />
+            <line number="128" hits="12" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="129" hits="12" branch="False" />
+            <line number="107" hits="14" branch="False" />
+            <line number="19" hits="12" branch="False" />
+            <line number="26" hits="12" branch="False" />
+            <line number="27" hits="12" branch="False" />
+            <line number="28" hits="12" branch="False" />
+            <line number="29" hits="12" branch="False" />
+            <line number="30" hits="12" branch="False" />
+            <line number="31" hits="12" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Services.ChatClient/&lt;&gt;c" filename="Chat.Client.Library\Services\ChatClient.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;ReciveMessages&gt;b__20_1" signature="(Chat.Common.Entities.ChatMessage)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="108" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="108" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Services.ChatClient/&lt;CreateUserAsync&gt;d__17" filename="Chat.Client.Library\Services\ChatClient.cs" line-rate="0.8571" branch-rate="0.7" complexity="10">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.8571" branch-rate="0.7" complexity="10">
+              <lines>
+                <line number="56" hits="3" branch="False" />
+                <line number="57" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="24" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="58" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="43" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="60" hits="2" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="67" type="jump" coverage="50%" />
+                    <condition number="85" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="61" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="251" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="73" hits="1" branch="False" />
+                <line number="75" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="56" hits="3" branch="False" />
+            <line number="57" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="24" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="58" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="43" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="60" hits="2" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="67" type="jump" coverage="50%" />
+                <condition number="85" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="61" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="251" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="75" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Services.ChatClient/&lt;LoginAsync&gt;d__16" filename="Chat.Client.Library\Services\ChatClient.cs" line-rate="0.8571" branch-rate="0.7" complexity="10">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.8571" branch-rate="0.7" complexity="10">
+              <lines>
+                <line number="34" hits="8" branch="False" />
+                <line number="35" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="24" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="36" hits="7" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="43" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="7" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="67" type="jump" coverage="50%" />
+                    <condition number="85" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="43" hits="6" branch="False" />
+                <line number="44" hits="6" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="251" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="49" hits="6" branch="False" />
+                <line number="50" hits="6" branch="False" />
+                <line number="51" hits="6" branch="False" />
+                <line number="53" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="34" hits="8" branch="False" />
+            <line number="35" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="24" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="36" hits="7" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="43" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="38" hits="7" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="67" type="jump" coverage="50%" />
+                <condition number="85" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="43" hits="6" branch="False" />
+            <line number="44" hits="6" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="251" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="49" hits="6" branch="False" />
+            <line number="50" hits="6" branch="False" />
+            <line number="51" hits="6" branch="False" />
+            <line number="53" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Services.ChatClient/&lt;ReciveMessages&gt;d__20" filename="Chat.Client.Library\Services\ChatClient.cs" line-rate="0.9411" branch-rate="0.8332999999999999" complexity="12">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.9411" branch-rate="0.8332999999999999" complexity="12">
+              <lines>
+                <line number="103" hits="5" branch="False" />
+                <line number="104" hits="6" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="618" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="105" hits="6" branch="False" />
+                <line number="106" hits="6" branch="False" />
+                <line number="109" hits="6" branch="False" />
+                <line number="111" hits="6" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="249" type="jump" coverage="100%" />
+                    <condition number="293" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="112" hits="1" branch="False" />
+                <line number="113" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="308" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="114" hits="1" branch="False" />
+                <line number="116" hits="30" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="446" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="117" hits="6" branch="False" />
+                <line number="118" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="377" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="119" hits="6" branch="False" />
+                <line number="120" hits="6" branch="False" />
+                <line number="122" hits="6" branch="False" />
+                <line number="123" hits="1" branch="False" />
+                <line number="124" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="103" hits="5" branch="False" />
+            <line number="104" hits="6" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="618" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="105" hits="6" branch="False" />
+            <line number="106" hits="6" branch="False" />
+            <line number="109" hits="6" branch="False" />
+            <line number="111" hits="6" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="249" type="jump" coverage="100%" />
+                <condition number="293" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="112" hits="1" branch="False" />
+            <line number="113" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="308" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="114" hits="1" branch="False" />
+            <line number="116" hits="30" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="446" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="117" hits="6" branch="False" />
+            <line number="118" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="377" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="119" hits="6" branch="False" />
+            <line number="120" hits="6" branch="False" />
+            <line number="122" hits="6" branch="False" />
+            <line number="123" hits="1" branch="False" />
+            <line number="124" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Services.ChatClient/&lt;SendMessageAsync&gt;d__19" filename="Chat.Client.Library\Services\ChatClient.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="85" hits="2" branch="False" />
+                <line number="86" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="31" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="87" hits="1" branch="False" />
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
+                <line number="91" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+                <line number="93" hits="1" branch="False" />
+                <line number="94" hits="1" branch="False" />
+                <line number="97" hits="1" branch="False" />
+                <line number="98" hits="1" branch="False" />
+                <line number="100" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="85" hits="2" branch="False" />
+            <line number="86" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="31" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="87" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
+            <line number="91" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="93" hits="1" branch="False" />
+            <line number="94" hits="1" branch="False" />
+            <line number="97" hits="1" branch="False" />
+            <line number="98" hits="1" branch="False" />
+            <line number="100" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Services.UserApiClient" filename="Chat.Client.Library\Services\UserApiClient.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.Net.Http.HttpClient)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="7" branch="False" />
+                <line number="14" hits="7" branch="False" />
+                <line number="15" hits="7" branch="False" />
+                <line number="16" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="7" branch="False" />
+            <line number="14" hits="7" branch="False" />
+            <line number="15" hits="7" branch="False" />
+            <line number="16" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Services.UserApiClient/&lt;CreateUserAsync&gt;d__2" filename="Chat.Client.Library\Services\UserApiClient.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="3" branch="False" />
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="3" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="26" hits="3" branch="False" />
+                <line number="27" hits="3" branch="False" />
+                <line number="28" hits="2" branch="False" />
+                <line number="29" hits="2" branch="False" />
+                <line number="30" hits="2" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="37" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="3" branch="False" />
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="27" hits="3" branch="False" />
+            <line number="28" hits="2" branch="False" />
+            <line number="29" hits="2" branch="False" />
+            <line number="30" hits="2" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="37" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Services.UserApiClient/&lt;LoginAsync&gt;d__3" filename="Chat.Client.Library\Services\UserApiClient.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="40" hits="4" branch="False" />
+                <line number="42" hits="4" branch="False" />
+                <line number="43" hits="4" branch="False" />
+                <line number="44" hits="3" branch="False" />
+                <line number="45" hits="3" branch="False" />
+                <line number="46" hits="3" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="53" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="40" hits="4" branch="False" />
+            <line number="42" hits="4" branch="False" />
+            <line number="43" hits="4" branch="False" />
+            <line number="44" hits="3" branch="False" />
+            <line number="45" hits="3" branch="False" />
+            <line number="46" hits="3" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="53" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Helpers.ChatMessageHelper" filename="Chat.Client.Library\Helpers\ChatMessageHelper.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="GenerateString" signature="(Chat.Common.Entities.ChatMessage)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="8" branch="False" />
+                <line number="9" hits="8" branch="False" />
+                <line number="10" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="8" branch="False" />
+            <line number="9" hits="8" branch="False" />
+            <line number="10" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Client.Library.Helpers.CryptographyHelper" filename="Chat.Client.Library\Helpers\CryptographyHelper.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="CalculateHash" signature="(System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="9" hits="3" branch="False" />
+                <line number="10" hits="3" branch="False" />
+                <line number="11" hits="3" branch="False" />
+                <line number="12" hits="3" branch="False" />
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="105" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="82" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="48" branch="False" />
+                <line number="17" hits="48" branch="False" />
+                <line number="18" hits="48" branch="False" />
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="3" branch="False" />
+            <line number="10" hits="3" branch="False" />
+            <line number="11" hits="3" branch="False" />
+            <line number="12" hits="3" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="105" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="82" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="16" hits="48" branch="False" />
+            <line number="17" hits="48" branch="False" />
+            <line number="18" hits="48" branch="False" />
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Chat.Common" line-rate="1" branch-rate="1" complexity="7">
+      <classes>
+        <class name="Chat.Common.Entities.ChatMessage" filename="Chat.Common\Entities\ChatMessage.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_IdChatMessage" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="31" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Author" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="50" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="44" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Date" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="40" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="31" branch="False" />
+            <line number="13" hits="50" branch="False" />
+            <line number="16" hits="44" branch="False" />
+            <line number="18" hits="40" branch="False" />
+          </lines>
+        </class>
+        <class name="Chat.Common.Entities.ChatUser" filename="Chat.Common\Entities\ChatUser.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_IdUser" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="37" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Password" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="4" branch="False" />
+            <line number="12" hits="37" branch="False" />
+            <line number="15" hits="8" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

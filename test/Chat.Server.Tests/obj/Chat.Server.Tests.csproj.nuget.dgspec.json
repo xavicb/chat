@@ -1,0 +1,317 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\test\\Chat.Server.Tests\\Chat.Server.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Common\\Chat.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Common\\Chat.Common.csproj",
+        "projectName": "Chat.Common",
+        "projectPath": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Common\\Chat.Common.csproj",
+        "packagesPath": "C:\\Users\\issaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\issaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Server.Library\\Chat.Server.Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Server.Library\\Chat.Server.Library.csproj",
+        "projectName": "Chat.Server.Library",
+        "projectPath": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Server.Library\\Chat.Server.Library.csproj",
+        "packagesPath": "C:\\Users\\issaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Server.Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\issaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Common\\Chat.Common.csproj": {
+                "projectPath": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Common\\Chat.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Server\\Chat.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Server\\Chat.Server.csproj",
+        "projectName": "Chat.Server",
+        "projectPath": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Server\\Chat.Server.csproj",
+        "packagesPath": "C:\\Users\\issaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\issaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Server.Library\\Chat.Server.Library.csproj": {
+                "projectPath": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Server.Library\\Chat.Server.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\test\\Chat.Server.Tests\\Chat.Server.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\test\\Chat.Server.Tests\\Chat.Server.Tests.csproj",
+        "projectName": "Chat.Server.Tests",
+        "projectPath": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\test\\Chat.Server.Tests\\Chat.Server.Tests.csproj",
+        "packagesPath": "C:\\Users\\issaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\test\\Chat.Server.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\issaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Server\\Chat.Server.csproj": {
+                "projectPath": "C:\\Users\\issaj\\projects\\Cursos\\Xunit\\Project\\Lab.240-Ejercicio de prácticas\\src\\Chat.Server\\Chat.Server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
